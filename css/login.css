@@ -1,0 +1,187 @@
+body{
+    padding-top: 0.31rem;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 微软雅黑;
+}
+input:-moz-placeholder {
+    color: #999999;
+}
+
+input:-ms-input-placeholder {
+    color: #999999;
+}
+
+input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.logo{
+    width: 2.32rem;height: 0.88rem;
+    position: relative;
+    left: 0;right: 0;margin: auto;
+    margin-top: 0.9rem;
+    font-size: 0.3rem;text-align: center;
+    box-sizing: border-box;
+    background-image: url("../images/logo1.png");
+    background-size: 100% 100%;
+}
+
+.formBox{
+    width: 100%;
+    height: auto;
+    margin-top: 0.86rem;
+    padding-left: 0.35rem;padding-right: 0.35rem;
+    box-sizing: border-box;
+}
+input,button{
+    display: block;
+    width: 100%;height: 0.8rem;
+    font-size: 0.26rem;
+    border: 0.01rem solid red;
+    border-radius: 0.05rem;
+}
+input{
+    text-indent:0.58rem;
+    background-repeat: no-repeat;
+    background-position: 0.22rem center;
+    background-size: 0.28rem 0.28rem;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+.userBox{
+    position: relative;width: 100%;height: 0.8rem;
+}
+.userBox input{
+    padding-left: 0.1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; background-image: url("../images/zhanghu.png");
+
+}
+.passBox,.yanzhengBox{
+    margin-top: 0.26rem;
+    position: relative;width: 100%;height: 0.8rem;
+}
+.passBox input{
+    background-image: url("../images/password.png");
+    position: absolute;
+    background-size: 0.28rem 0.28rem;
+}
+.yanzhengBox #phone-code{
+    background-image: url("../images/password.png");
+    position: absolute;
+    background-size: 0.28rem 0.28rem;
+    padding-left: 0.1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.userBox span{
+    display: none;position: absolute;
+    height: 100%;width: 0.56rem;
+    background:url("../images/closed.png") center center no-repeat;
+    background-size: 0.16rem 0.16rem;
+    right: 0.22rem;
+    top: 0;bottom: 0;margin: auto;
+}
+.huoquBtn{
+    height: 100%;width: auto;
+}
+.yanzhengBox input#btn{
+    display: block;position: absolute;
+    color: #46bf47;font-size: 0.2rem;
+    width:auto;height: 0.3rem;line-height: 0.3rem;
+    border: 1px solid white;
+    border-left: 1px solid #ccc;
+    right: 0.22rem;padding-left: 0.18rem;box-sizing: border-box;
+    top: 0;bottom: 0;margin: auto;
+    text-indent: 0;
+    background-color: white;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+/*.passBox:after{
+    content: "";
+    display: block;position: absolute;
+    height: 100%;width: 0.36rem;
+    background:url("../images/show.png") center center no-repeat;
+    background-size: 0.36rem 0.24rem;
+    right: 0.22rem;
+    top: 0;bottom: 0;margin: auto;
+}*/
+.loginBtn{
+    margin-top: 0.42rem;
+    box-sizing: border-box;
+    font-size: 0.3rem;
+    border: 0;
+    color: #ffffff;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #DDDDDD;
+    outline: none;
+    background-color: #ddd;
+}
+.loginBtn.find{
+    background-color: #46bf47;
+    -webkit-text-stroke: 1px #46bf47;
+}
+.loginBtn.find:hover{
+    background-color: #1f9020;
+}
+.mima{
+    font-size: 0.2rem;
+    color: #a1a0a0;
+    float: right;margin-top: 0.28rem;
+}
+.find-password{
+    position: relative;
+    left: 0;right: 0;margin: auto;
+    font-size: 0.3rem;text-align: center;
+    font-weight: bold;
+    margin-top: 0.08rem;
+}
+.yanzheng input{
+    background-image: url("../images/yanzheng.png");
+    padding-left: 0.1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.yanzheng img{
+    display: block;position: absolute;
+    height: 69%;width: 1.1rem;
+    right: 0.22rem;
+    top: 0;bottom: 0;margin: auto;
+}
+
+.error{
+    width: 2.66rem;height: 0.72rem;
+    text-align: center;line-height: 0.72rem;
+    color: white;background-color: #707070;
+    font-size: 0.24rem;border-radius: 0.35rem;
+    position: fixed;
+    left: 0;right: 0;margin: auto;
+    bottom: 0.82rem;
+    display: none;
+    border: 1px solid white;
+    padding: 0 0.3rem 0 0.3rem;
+}
+.error.show{
+    display: block;
+}
+.tishi{
+    font-size: 0.22rem;color: #646464;
+    font-weight: bold;
+}
+.reset:after{
+    content: "";  display: block;position: absolute;
+    height: 100%;width: 0.36rem;
+    background:url("../images/hidden.png") center center no-repeat;
+    background-size: 0.36rem 0.24rem;
+    right: 0.22rem;
+    top: 0;bottom: 0;margin: auto;
+}
+p{
+    font-size: 0.22rem;color: #C5C5C5;
+    margin-top: 0.2rem;
+}
